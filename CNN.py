@@ -12,7 +12,7 @@ folder_names = [name for name in os.listdir(path) if os.path.isdir(os.path.join(
 # Each row is an image
 img = np.zeros([94257, 45,45], dtype = float)
 labels = np.zeros([94257])
-
+#hello
 j = 0
 for i in range(10):
 	for image in os.listdir(path + "/" + folder_names[i]):
